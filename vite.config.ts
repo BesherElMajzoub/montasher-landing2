@@ -35,6 +35,7 @@ export default defineConfig({
       ".manusvm.computer",
       "localhost",
       "127.0.0.1",
+	   ".ngrok-free.app",
     ],
     fs: {
       strict: true,
