@@ -295,9 +295,11 @@ export default function Home() {
                     نضمن ظهورك في الصفحة الأولى عندما يبحث العميل عنك. أنت الخيار الأول أمامه، وهذا يعني المزيد من الاتصالات والعملاء المحتملين.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <span className="neo-button px-4 py-2 text-sm rounded-lg">استهداف دقيق</span>
-                    <span className="neo-button px-4 py-2 text-sm rounded-lg">نتائج سريعة</span>
-                    <span className="neo-button px-4 py-2 text-sm rounded-lg">قياس فوري</span>
+                       <img 
+                      src="/images/mobile-google-ads.png" 
+                      alt="إعلانات سناب شات" 
+                      className="w-full h-auto rounded-lg"
+                    /> 
                   </div>
                 </div>
               </div>
