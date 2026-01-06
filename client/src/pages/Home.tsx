@@ -57,15 +57,15 @@ export default function Home() {
           <div className="container relative z-10 py-20">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="text-center lg:text-right space-y-8 observe">
-                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-foreground">
-                  إعلانك الأول في جوجل..
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-foreground tracking-tight">
+                  أقوى شركة اعلانات جوجل
                   <span className="block mt-2 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                    يعني العميل يتصل فيك أول
+                    لتصدر نتائج البحث وزيادة المبيعات
                   </span>
                 </h1>
 
                 <p className="text-xl md:text-2xl text-muted-foreground font-light leading-relaxed">
-                  في "منتشر" نضمن ظهورك في صدارة نتائج البحث، ونحوّل الباحثين عن خدمتك إلى عملاء حقيقيين يتصلون بك مباشرة.
+                  هل تبحث عن كيفية عمل اعلان على جوجل ناجح؟ نحن في "منتشر" خبير اعلانات جوجل الذي يضمن لك عملاء حقيقيين. نقدم خدمات Google Ads، تصميم موقع الكتروني، و انشاء متجر الكتروني احترافي.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-end pt-6">
@@ -107,10 +107,10 @@ export default function Home() {
           <div className="container">
             <div className="text-center mb-16 observe">
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-                نوصلك بالعميل اللي يدور عليك الحين!
+                نوصلك بالعميل اللي يدور عل الحين!
               </h2>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                مع "منتشر"، إعلانك ما يظهر لأي أحد. نستهدف العميل الجاد اللي يبحث عن خدمتك في جوجل بنفس اللحظة.
+                معنا، اعلان على جوجل لا يظهر لأي أحد. نستهدف العميل الجاد الذي يبحث عن  خدماتك في نفس اللحظة.
               </p>
             </div>
 
@@ -290,20 +290,21 @@ export default function Home() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
+              {/* Google Ads Service */}
               <div className="neo-card p-10 observe">
                 <div className="flex items-start gap-6">
                   <div className="w-16 h-16 flex-shrink-0 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                     <Globe className="h-8 w-8 text-primary-foreground" />
                   </div>
                   <div>
-                    <h3 className="text-3xl font-bold mb-4 text-foreground">إعلانات جوجل</h3>
+                    <h3 className="text-3xl font-bold mb-4 text-foreground">اعلانات جوجل ادورد</h3>
                     <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                      نضمن ظهورك في الصفحة الأولى عندما يبحث العميل عنك. أنت الخيار الأول أمامه، وهذا يعني المزيد من الاتصالات والعملاء المحتملين.
+                      نحن أفضل شركة اعلانات جوجل تضمن لك الصدارة. سواء كنت تريد حملة اعلانية على جوجل للبحث أو يوتيوب، خبراؤنا في "جوجل ادز" يرفعون عائدك الاستثماري.
                     </p>
                     <div className="flex flex-wrap gap-2">
                       <img
                         src="/images/mobile-google-ads.png"
-                        alt="إعلانات سناب شات"
+                        alt="إعلانات جوجل"
                         className="w-full h-auto rounded-lg"
                       />
                     </div>
@@ -311,6 +312,7 @@ export default function Home() {
                 </div>
               </div>
 
+              {/* Website Design Service */}
               <div className="neo-card p-10 observe" style={{ animationDelay: "0.1s" }}>
                 <div className="flex items-start gap-6">
                   <div className="w-16 h-16 flex-shrink-0 rounded-2xl bg-gradient-to-br from-accent to-primary flex items-center justify-center">
@@ -321,10 +323,14 @@ export default function Home() {
                     <p className="text-lg text-muted-foreground leading-relaxed mb-4">
                       نصمم إعلانات فيديو وصور جذابة توصل لآلاف المستخدمين وتترك انطباع سريع وقوي يدفعهم للتواصل معك.
                     </p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="neo-button px-4 py-2 text-sm rounded-lg">تصميم اعلان</span>
+                      <span className="neo-button px-4 py-2 text-sm rounded-lg">عمل فيديو</span>
+                    </div>
                     <div className="neo-card-inset p-4 mt-4">
                       <img
                         src="/images/mobile-ads.png"
-                        alt="إعلانات سناب شات"
+                        alt="تصميم مواقع متجاوب"
                         className="w-full h-auto rounded-lg"
                       />
                     </div>
@@ -332,38 +338,40 @@ export default function Home() {
                 </div>
               </div>
 
+              {/* E-commerce Service */}
               <div className="neo-card p-10 observe" style={{ animationDelay: "0.2s" }}>
                 <div className="flex items-start gap-6">
                   <div className="w-16 h-16 flex-shrink-0 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                     <Globe className="h-8 w-8 text-primary-foreground" />
                   </div>
                   <div>
-                    <h3 className="text-3xl font-bold mb-4 text-foreground">تصميم صفحات الهبوط</h3>
+                    <h3 className="text-3xl font-bold mb-4 text-foreground">تصميم متجر الكتروني</h3>
                     <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                      نصمم لك صفحة هبوط احترافية ومقنعة تحوّل كل زائر إلى عميل متصل. التصميم والمحتوى كلها مدروسة لزيادة التحويل.
+                      ابدأ البيع اونلاين مع تصميم متجر احترافي. نقدم خدمات تصميم متاجر الكترونية متكاملة، من برمجة متجر الكتروني الى الربط مع بوابات الدفع.
                     </p>
                     <div className="flex flex-wrap gap-2">
-                      <span className="neo-button px-4 py-2 text-sm rounded-lg">تصميم احترافي</span>
-                      <span className="neo-button px-4 py-2 text-sm rounded-lg">محتوى مقنع</span>
-                      <span className="neo-button px-4 py-2 text-sm rounded-lg">سريع التحميل</span>
+                      <span className="neo-button px-4 py-2 text-sm rounded-lg">انشاء متجر الكتروني</span>
+                      <span className="neo-button px-4 py-2 text-sm rounded-lg">تصميم متاجر</span>
+                      <span className="neo-button px-4 py-2 text-sm rounded-lg">افضل شركة تصميم متجر الكتروني</span>
                     </div>
                   </div>
                 </div>
               </div>
 
+              {/* Campaign Management Service */}
               <div className="neo-card p-10 observe" style={{ animationDelay: "0.3s" }}>
                 <div className="flex items-start gap-6">
                   <div className="w-16 h-16 flex-shrink-0 rounded-2xl bg-gradient-to-br from-accent to-primary flex items-center justify-center">
                     <BarChart3 className="h-8 w-8 text-primary-foreground" />
                   </div>
                   <div>
-                    <h3 className="text-3xl font-bold mb-4 text-foreground">إدارة الحملات</h3>
+                    <h3 className="text-3xl font-bold mb-4 text-foreground">ادارة حملات شاملة</h3>
                     <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                      نتولى إدارة حملاتك بالكامل، مع تحسين مستمر لتقليل الهدر وزيادة الكفاءة. أنت تركز على عملك، ونحن نجيب لك العملاء.
+                      بصفتنا خبير اعلانات جوجل، ندير حملاتك بدقة. نراقب أداء "google ads" وموقعك لتحقيق أعلى مبيعات بأقل تكلفة.
                     </p>
                     <div className="flex flex-wrap gap-2">
-                      <span className="neo-button px-4 py-2 text-sm rounded-lg">متابعة يومية</span>
-                      <span className="neo-button px-4 py-2 text-sm rounded-lg">تحسين مستمر</span>
+                      <span className="neo-button px-4 py-2 text-sm rounded-lg">تحليل أداء</span>
+                      <span className="neo-button px-4 py-2 text-sm rounded-lg">زيادة مبيعات</span>
                       <span className="neo-button px-4 py-2 text-sm rounded-lg">تقارير دورية</span>
                     </div>
                   </div>
@@ -479,10 +487,10 @@ export default function Home() {
             <div className="max-w-4xl mx-auto text-center observe">
               <div className="neo-card p-12 bg-gradient-to-br from-primary/5 to-accent/5">
                 <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-                  جاهز تبدأ في استقبال عملاء جدد؟
+                  جاهز للعمل مع أفضل شركة اعلانات جوجل؟
                 </h2>
                 <p className="text-xl text-muted-foreground mb-10 leading-relaxed">
-                  لا تأجل نجاحك. فريقنا جاهز لمساعدتك على النمو والانتشار. تواصل معنا الآن واحصل على استشارة مجانية وخطة تسويقية مخصصة لعملك.
+                  لا تأجل نجاحك. سواء كنت تحتاج إلى تصميم متجر الكتروني أو عمل اعلان على جوجل، فريقنا جاهز لمساعدتك. تواصل معنا الآن واحصل على خطة تسويقية مجانية.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
