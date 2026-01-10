@@ -65,7 +65,7 @@ export default function Home() {
                 </h1>
 
                 <p className="text-xl md:text-2xl text-muted-foreground font-light leading-relaxed">
-                  هل تبحث عن كيفية عمل اعلان على جوجل ناجح؟ نحن في "منتشر" خبير اعلانات جوجل الذي يضمن لك عملاء حقيقيين. نقدم خدمات Google Ads، تصميم موقع الكتروني، و انشاء متجر الكتروني احترافي.
+                  هل تبحث عن كيفية عمل اعلان على جوجل ناجح؟ نحن في "منتشر" خبراء اعلانات جوجل الذي يضمن لك عملاء حقيقيين. نقدم خدمات Google Ads، تصميم موقع الكتروني، و انشاء متجر الكتروني احترافي.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-end pt-6">
